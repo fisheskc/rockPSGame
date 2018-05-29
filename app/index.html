@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock scrissors paper</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="gameArea">
+        <h1 class="header">Rock, Papers, scissors game</h1>
+        <p class="textp">Choose rock, paper or scissors</p>
+        <div class="players">
+            <p id="scores">Score = 0</p>
+
+
+            <p id="outputText">play!</p>
+        </div>
+        <div class="playArea">
+            <div class="items top">
+                <i class="far fa-hand-rock fa-w-16 fa-7x myIcon"></i>
+                <input type="button" value="rock" onclick="play(0)" class="btn"></input>
+            </div>
+            <div class="items">
+                <i class="far fa-hand-paper fa-7x"></i>
+                <input type="button" value="paper" onclick="play(1)" class="btn"></input>
+            </div>
+            <div class="items">
+                <i class="far fa-hand-scissors fa-7x"></i>
+                <input type="button" value="scissors" onclick="play(2)" class="btn"></input>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+
+</body>
+
+</html>

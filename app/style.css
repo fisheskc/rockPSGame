@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,700");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: #b6ebed;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.header {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.gameArea {
+  width: 600px;
+  background: #42587f;
+  margin: 30px auto;
+  padding: 20px 30px 20px 30px;
+  border-radius: 10px;
+}
+#scores {
+  display: flex;
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 1.25em;
+}
+
+.players {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+  color: #fff;
+}
+
+.textp {
+  font-size: 1.25em;
+  color: #b6ebed;
+  text-align: center;
+  margin-top: 35px;
+}
+#outputText {
+  font-size: 1em;
+}
+.playArea {
+  margin: 30px 10px 20px 10px;
+  padding: 30px 0px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #2ea8f4;
+  box-shadow: inset 6px 5px 25px 0px #4b57d1, 2px 4px 5px -95px #dddddd;
+  -webkit-box-shadow: inset 6px 5px 25px 0px #4b57d1, 2px 4px 5px -95px #dddddd;
+  -moz-box-shadow: inset 6px 5px 25px 0px #4b57d1, 2px 4px 5px -95px #dddddd;
+  -o-box-shadow: inset 6px 5px 25px 0px #4b57d1, 2px 4px 5px -95px #dddddd;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 4px 10px 4px 10px;
+  text-decoration: none;
+  margin: 20px 0px 15px 0px;
+}
+
+.top {
+  margin-top: 20px;
+}
+.items {
+  text-align: center;
+  background: #3b842d;
+  padding: 25px 30px 15px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  border: 5px solid #1286ce;
+  margin: 30px 20px;
+  color: #ffffff;
+  width: 100px;
+}
+
+.header {
+  color: #fff;
+}
